@@ -21,7 +21,7 @@
             {% for version in versions reversed %}
             {% if page.section == section and page.version == version.name %}
                 {% assign versionClass = "expanded" %}
-            {% else %} 
+            {% else %}
                 {% assign versionClass = "collapsed" %}
             {% endif %}
             {% if section == "Introduction" %}
@@ -45,6 +45,6 @@
                 </li>
             {% endfor %}
             </ul>
-        </li>        
+        </li>
     {% endfor %}
 </ul>

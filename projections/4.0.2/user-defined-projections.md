@@ -9,7 +9,7 @@ User defined projections are written in javascript (ECMASCRIPT 6).
 
 Example projection:
 
-```
+```javascript
 options({ //option
 	resultStreamName: "my_demo_projection_result",
 	$includeLinks: false,
@@ -257,6 +257,7 @@ The event provided through the handler contains the following properties.
 - metadataRaw: {}
 - linkMetadataRaw: string
 - partition: string
+- eventType: string
 
 <table>
     <thead>

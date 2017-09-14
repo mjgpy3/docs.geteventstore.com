@@ -244,6 +244,7 @@ The event provided through the handler contains the following properties.
 - metadataRaw: {}
 - linkMetadataRaw: string
 - partition: string
+- eventType: string
 
 <table>
     <thead>

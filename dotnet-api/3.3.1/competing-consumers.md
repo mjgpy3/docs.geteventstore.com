@@ -144,10 +144,11 @@ The first step of dealing with a subscription group is that it must be created. 
 PersistentSubscriptionSettings settings = PersistentSubscriptionSettings.Create()
                                                                 .DoNotResolveLinkTos()
                                                                 .StartFromCurrent();
-_result = _conn.CreatePersistentSubscriptionAsync(_stream, 
-												  "agroup", 
-												  settings, 
-												  MyCredentials).Result;                            
+_result =
+  _conn.CreatePersistentSubscriptionAsync(_stream, 
+                                         "agroup", 
+                                         settings, 
+                                         MyCredentials).Result;                            
 ```
 
 <table>
